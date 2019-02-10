@@ -1,1 +1,9 @@
 shiny
+shinyWidgets
+DT
+rgdal
+geosphere
+leaflet
+leaflet.extra
+extrafont
+rjson
