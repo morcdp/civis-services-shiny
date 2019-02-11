@@ -1,7 +1,9 @@
 FROM civisanalytics/datascience-r:2.7.0
 
 RUN apt-get update && apt-get install -y \
-    git
+    git \
+    libproj-dev \
+    libgdal-dev
 
 COPY ./requirements.txt /requirements.txt
 RUN Rscript -e "packages <- readLines('/requirements.txt'); install.packages(packages)"
