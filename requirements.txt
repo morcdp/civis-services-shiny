@@ -4,6 +4,6 @@ DT
 rgdal
 geosphere
 leaflet
-leaflet.extra
+leaflet.extras
 extrafont
 rjson
